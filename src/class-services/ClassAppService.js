@@ -1,6 +1,6 @@
 import ClassDepService from './ClassDepService'
 
-module.exports = class AppService {
+class ClassAppService {
   
   callDep () {
     
@@ -13,3 +13,4 @@ module.exports = class AppService {
   
 }
 
+export default ClassAppService

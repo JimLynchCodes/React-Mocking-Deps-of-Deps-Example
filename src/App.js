@@ -2,15 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import FunctionalAppService from './functional-services/FunctionalAppService'
-import ClassAppService from './class-services/ClassAppService'
-import ClassDepService from './class-services/ClassDepService'
+import FunctionalAppService from './functional-services/FunctionalAppService';
+import ClassAppService from './class-services/ClassAppService';
 
 function App() {
 
   // console.log('app , functionalAppService())
   FunctionalAppService.callDep()
- 
+
   const classAppService = new ClassAppService()
   classAppService.callDep()
 
