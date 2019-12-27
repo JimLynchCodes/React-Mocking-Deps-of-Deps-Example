@@ -17,7 +17,7 @@ import App from './App';
 
   return {
     doThings: () => {
-      console.log('woahh, this FunctionalDepService function call was mocked from App.test,js!')
+      console.log('woahh, this FunctionalDepService function call was mocked from App.test.js!')
     }
   }
 
